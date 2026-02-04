@@ -3,3 +3,6 @@
 *.tfstate.backup
 __pycache__/
 .env
+.venv/
+__pycache__/
+*.pyc
