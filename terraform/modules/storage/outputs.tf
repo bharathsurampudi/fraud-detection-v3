@@ -13,3 +13,7 @@ output "user_state_table_name" {
 output "fraud_alerts_table_name" {
   value = aws_dynamodb_table.fraud_alerts.name
 }
+
+output "snowflake_role_arn" {
+  value = aws_iam_role.snowflake_role.arn
+}
