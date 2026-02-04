@@ -6,7 +6,7 @@ resource "aws_kinesis_stream" "stream" {
   shard_level_metrics = [
     "IncomingBytes",
     "OutgoingBytes",
-    "WriteProvisionedThroughputExceeded" 
+    "WriteProvisionedThroughputExceeded"
   ]
   # Note: "WriteProvisionedThroughputExceeded" is CRITICAL for monitoring if we need to scale.
 
